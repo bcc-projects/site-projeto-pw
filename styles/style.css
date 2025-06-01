@@ -1,0 +1,10 @@
+:root {
+    --cor-primaria: #f9f5ef;
+    --cor-verde: #f9f5ef;
+    --cor-fontes: #2E5E4E;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fontes);
+}
