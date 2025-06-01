@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4efe9;
+  margin: 0;
+  padding: 100px;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.text-content {
+  flex: 1;
+}
+
+#sobre {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image {
+  flex-shrink: 0;
+}
+
+.image img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+#especializações {
+  font-size: 32px;
+  padding: 7%;
+  text-align: center;
+}
