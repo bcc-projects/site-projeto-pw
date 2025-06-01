@@ -1,0 +1,27 @@
+:root {
+    --cor-primaria: #f9f5ef;
+    --cor-verde: #2E5E4E;
+    --cor-botao: #2C3E50;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-verde);
+}
+
+.navbar {
+    background-color: var(--cor-verde);
+}
+
+.navbar a {
+    color: var(--cor-primaria);
+}
+
+.offcanvas-body {
+    background-color: var(--cor-verde);
+}
+
+.botao {
+    background-color: var(--cor-botao);
+    color: var(--cor-primaria);
+}
