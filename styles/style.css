@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
 :root {
     --cor-primaria: #f9f5ef;
     --cor-verde: #2E5E4E;
     --cor-botao: #2C3E50;
+}
+
+.carousel-caption {
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 300;
 }
 
 body {
@@ -25,3 +33,4 @@ body {
     background-color: var(--cor-botao);
     color: var(--cor-primaria);
 }
+
