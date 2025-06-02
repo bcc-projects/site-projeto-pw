@@ -35,4 +35,35 @@ body {
     color: var(--cor-primaria);
 }
 
+.banners {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
+.banner-1 {
+  background-image: url('../assets/imagem-parallax-sm.jpg');
+}
+
+.banners-titulo {
+  --bs-bg-opacity: .2;
+}
+
+.banners-titulo a{
+  color: var(--cor-verde);
+}
+
+.card-title {
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+}
