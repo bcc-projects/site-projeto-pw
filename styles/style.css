@@ -64,6 +64,12 @@
   background-size: cover;
 }
 
+.banner-agendamento-1 {
+    height: 100vh;
+    background-image: url('../assets/pexels-1.jpg');
+    background-size: cover;
+}
+
 .banners-titulo {
   --bs-bg-opacity: 0.2;
 }
