@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
 
 :root {
-    --cor-primaria: #f9f5ef;
-    --cor-verde: #2E5E4E;
-    --cor-botao: #2C3E50;
+  --cor-primaria: #f9f5ef;
+  --cor-verde: #2e5e4e;
+  --cor-botao: #2c3e50;
 }
 
 .carousel-caption {
-    font-family: "Cormorant Garamond";
-    font-style: italic;
-    font-weight: 300;
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 300;
 }
 
 .body {
-    background-color: var(--cor-primaria);
-    color: var(--cor-verde);
-    min-height: 100vh;       
-    display: flex;
-    flex-direction: column;
+  background-color: var(--cor-primaria);
+  color: var(--cor-verde);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
-    flex: 1;                        
+  flex: 1;
 }
 
-
 .navbar {
-    background-color: var(--cor-verde);
+  background-color: var(--cor-verde);
 }
 
 .navbar a {
-    color: var(--cor-primaria);
+  color: var(--cor-primaria);
 }
 
 .offcanvas-body {
-    background-color: var(--cor-verde);
+  background-color: var(--cor-verde);
 }
 
 .botao {
-    background-color: var(--cor-botao);
-    color: var(--cor-primaria);
+  background-color: var(--cor-botao);
+  color: var(--cor-primaria);
 }
 
 .botao-secundario {
-    background-color: var(--cor-verde);
+  background-color: var(--cor-verde);
 }
 
 .banners {
@@ -56,58 +55,58 @@
 }
 
 .banner-1 {
-  background-image: url('../assets/imagem-parallax-sm.jpg');
+  background-image: url("../assets/imagem-parallax-sm.jpg");
 }
 
 .banner-servicos-1 {
-    height: 100vh;
-    background-image: url('../assets/pexels-2.jpg');
-    background-size: cover;
+  height: 100vh;
+  background-image: url("../assets/pexels-2.jpg");
+  background-size: cover;
 }
 
 .banners-titulo {
-  --bs-bg-opacity: .2;
+  --bs-bg-opacity: 0.2;
 }
 
-.banners-titulo a{
+.banners-titulo a {
   color: var(--cor-verde);
 }
 
 .card-title {
-    font-family: "Cormorant Garamond";
-    font-style: italic;
-    font-weight: 600;
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 600;
 }
 
 .card-text {
-    font-family: "Cormorant Garamond";
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .container-cards {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.mb-3 a{
-    font-size: 40px;
-    transition: transform 0.3s, color 0.3s;
+.mb-3 a {
+  font-size: 40px;
+  transition: transform 0.3s, color 0.3s;
 }
 
-.mb-3 a:hover{
-    color: 005fa3;
-    transform: scale(1.3);
-    cursor: pointer;
+.mb-3 a:hover {
+  color: 005fa3;
+  transform: scale(1.3);
+  cursor: pointer;
 }
 .footer {
-    box-shadow: 0px 0px 20px #2e5e4e9f; 
-    background-color: var(--cor-verde);
-    color: var(--cor-primaria);
+  box-shadow: 0px 0px 20px #2e5e4e9f;
+  background-color: var(--cor-verde);
+  color: var(--cor-primaria);
 }
 
 .footer__list {
-    list-style: none;
+  list-style: none;
 }
