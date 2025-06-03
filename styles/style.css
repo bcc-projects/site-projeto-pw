@@ -51,6 +51,12 @@ body {
   background-image: url('../assets/imagem-parallax-sm.jpg');
 }
 
+.banner-servicos-1 {
+    height: 100vh;
+    background-image: url('../assets/pexels-2.jpg');
+    background-size: cover;
+}
+
 .banners-titulo {
   --bs-bg-opacity: .2;
 }
