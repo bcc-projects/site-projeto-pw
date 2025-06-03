@@ -71,6 +71,12 @@ body {
     font-weight: 400;
 }
 
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 .footer {
     box-shadow: 0px 0px 20px #2e5e4e9f; 
     background-color: var(--cor-verde);
