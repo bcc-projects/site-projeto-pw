@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
 :root {
     --cor-primaria: #f9f5ef;
     --cor-verde: #2E5E4E;
     --cor-botao: #2C3E50;
+}
+
+.carousel-caption {
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 300;
 }
 
 body {
@@ -24,4 +32,57 @@ body {
 .botao {
     background-color: var(--cor-botao);
     color: var(--cor-primaria);
+}
+
+.botao-secundario {
+    background-color: var(--cor-verde);
+}
+
+.banners {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner-1 {
+  background-image: url('../assets/imagem-parallax-sm.jpg');
+}
+
+.banners-titulo {
+  --bs-bg-opacity: .2;
+}
+
+.banners-titulo a{
+  color: var(--cor-verde);
+}
+
+.card-title {
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer {
+    box-shadow: 0px 0px 20px #2e5e4e9f; 
+    background-color: var(--cor-verde);
+    color: var(--cor-primaria);
+}
+
+.footer__list {
+    list-style: none;
 }
