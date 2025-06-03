@@ -12,10 +12,18 @@
     font-weight: 300;
 }
 
-body {
+.body {
     background-color: var(--cor-primaria);
     color: var(--cor-verde);
+    min-height: 100vh;       
+    display: flex;
+    flex-direction: column;
 }
+
+.main {
+    flex: 1;                        
+}
+
 
 .navbar {
     background-color: var(--cor-verde);
