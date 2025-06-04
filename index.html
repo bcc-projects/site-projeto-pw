@@ -19,57 +19,59 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-dark shadow-sm navbar-expand-md fixed-top">
-      <div class="container-fluid px-5">
-        <a class="navbar-brand" href="#">SIO Massoterapia</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h1 class="offcanvas-title" id="offcanvasNavbarLabel">
-              SIO Massoterapia
-            </h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servicos.html">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link botao rounded px-2" href="agendarSessao.html"
-                  >Agendar Sessão</a
-                >
-              </li>
-            </ul>
+    <header>
+      <nav class="navbar navbar-dark shadow-sm navbar-expand-md fixed-top">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#">SIO Massoterapia</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title" id="offcanvasNavbarLabel">
+                SIO Massoterapia
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link botao rounded px-2" href="agendarSessao.html"
+                    >Agendar Sessão</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <main>
       <div
@@ -116,7 +118,7 @@
               src="assets/banner1-computador.png"
               alt=""
             />
-            <div class="carousel-caption d-none d-md-block text-end py-5">
+            <div class="carousel-caption d-block text-sm-end py-5">
               <p class="fs-2">"Toque que alivia, cuidado que transforma."</p>
             </div>
           </div>
