@@ -17,317 +17,300 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-dark shadow-sm navbar-expand-md fixed-top">
-      <div class="container-fluid px-5">
-        <a class="navbar-brand" href="index.html">SIO Massoterapia</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              SIO Massoterapia
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Início</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link botao rounded px-2" href="contato.html"
-                  >Agendar Sessão</a
-                >
-              </li>
-            </ul>
+    <header>
+      <nav class="navbar navbar-dark shadow-sm navbar-expand-md fixed-top">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="index.html">SIO Massoterapia</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title" id="offcanvasNavbarLabel">
+                SIO Massoterapia
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Início</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link botao rounded px-2" href="contato.html"
+                    >Agendar Sessão</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
-    <section
-      class="banners mt-5 banner-servicos-1 d-flex flex-column justify-content-center text-center"
-    ></section>
+    <main>
+      <section
+        class="banners mt-5 banner-servicos-1 d-flex flex-column justify-content-center text-center"
+      ></section>
 
-    <section class="container row justify-content-center mx-auto mt-5">
-      <h2 class="text-center mb-5">Nossos serviços</h2>
-
-      <div class="row align-items-stretch">
-        <!-- Card 1 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-1.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Massagem Relaxante</h3>
-              <p class="card-text fs-6 fw-medium">
-                ✨️Desconecte-se do mundo e conecte-se com o seu bem-estar! ✨
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Imagine-se deitado(a), em um ambiente aquecido, com aromas
-                relaxantes e toques suaves que aliviam cada tensão do seu corpo.
-                A massagem relaxante não é apenas um momento de descanso, é um
-                convite para cuidar de você.
-              </p>
-
-              <!-- Bloco "colado" embaixo -->
-              <div class="mt-auto">
+      <section class="container row justify-content-center mx-auto mt-5">
+        <h2 class="text-center mb-5">Nossos serviços</h2>
+        <div class="row align-items-stretch">
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-1.png" alt="Foto exemplificando uma pessoa recebendo massagem." />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Massagem Relaxante</h3>
                 <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 60 minutos
+                  ✨️Desconecte-se do mundo e conecte-se com o seu bem-estar! ✨
                 </p>
-                <p class="card-text fs-6 fw-medium">R$ 150,00</p>
+                <p class="card-text fs-6 fw-medium">
+                  Imagine-se deitado(a), em um ambiente aquecido, com aromas
+                  relaxantes e toques suaves que aliviam cada tensão do seu corpo.
+                  A massagem relaxante não é apenas um momento de descanso, é um
+                  convite para cuidar de você.
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 60 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 150,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-2.png" alt="Foto de uma mulher recebendo massagem e logo abaixo a mensagem: Massagem terapêutica" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Massagem Terapêutica</h3>
+                <p class="card-text fs-6 fw-medium">
+                  🌿 Massagem Terapêutica: Alívio para o corpo, paz para a
+                  mente!🌿
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  Carregar tensões, sentir dores nas costas, ombros ou pernas...
+                  isso já não precisa fazer parte do seu dia a dia. A massagem
+                  terapêutica é a solução ideal para quem busca alívio imediato e
+                  mais qualidade de vida!
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 120 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 260,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-3.png" alt="Foto contendo explicações sobre massagem facial." />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Massagem Facial</h3>
+                <p class="card-text fs-6 fw-medium">
+                  ✨️Imagine aliviar as tensões acumuladas no rosto, pescoço e
+                  cabeça enquanto renova sua pele e desperta uma sensação única de
+                  bem-estar... ✨ Essa é a experiência da Massagem Facial Crânio!
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  Com movimentos suaves e precisos, ela reduz o estresse, melhora
+                  a circulação, suaviza linhas de expressão e ainda promove um
+                  relaxamento profundo que você merece sentir.
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 50 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 130,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-4.png" alt="Foto contendo informações sobre Auriculoterapia" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Auriculoterapia</h3>
+                <p class="card-text fs-6 fw-medium">
+                  ✨ Transforme sua saúde com a Auriculoterapia! ✨
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  Sabia que a solução para diversas dores e desconfortos pode
+                  estar nas suas orelhas? 🌿 A Auriculoterapia é uma técnica
+                  milenar que estimula pontos específicos na orelha para
+                  equilibrar corpo e mente.
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 30 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 80,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-5.png" alt="Foto de exemplo de drenagem linfática" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Drenagem Linfática</h3>
+                <p class="card-text fs-6 fw-medium">
+                  💆‍♀️ Drenagem Linfática: Saúde e Bem-Estar em Harmonia! 💧
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  Você sabia que a drenagem linfática vai muito além da estética?
+                  Essa técnica ajuda a estimular o sistema linfático, responsável
+                  por eliminar toxinas, reduzir inchaços e melhorar a circulação
+                  do corpo. Ideal para quem busca qualidade de vida, a drenagem
+                  também é indicada para gestantes (com orientação médica),
+                  pós-operatórios e até mesmo para aliviar o cansaço do dia a dia.
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 70 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 180,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-6.png" alt="Foto exemplo de liberação miofascial" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Liberação Miofascial</h3>
+                <p class="card-text fs-6 fw-medium">
+                  Você sente dores musculares, rigidez ou aquele incômodo que
+                  parece nunca passar?
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  🌿 A liberação miofascial pode ser a solução que seu corpo
+                  precisa! Essa técnica incrível atua diretamente na fáscia – a
+                  membrana que envolve os músculos – liberando tensões e
+                  devolvendo a mobilidade que você merece.
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 80 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 200,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-7.png" alt="Foto contendo detalhes sobre Reflexologia Podal" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Reflexologia Podal</h3>
+                <p class="card-text fs-6 fw-medium">
+                  👣 Escalda-pés + Reflexologia Podal: Um cuidado que começa pelos
+                  seus pés e transforma todo o corpo! 💚✨
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  Imagine mergulhar seus pés em uma água morna com ervas e aromas
+                  relaxantes, seguido por toques terapêuticos que aliviam tensões
+                  e equilibram sua energia. 🌿
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 50 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 130,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-8.png" alt="Foto de um homem fazendo Shiatsu" />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Shiatsu</h3>
+                <p class="card-text fs-6 fw-medium">
+                  O shiatsu é uma técnica de massagem terapêutica de origem
+                  japonesa que trabalha com a pressão dos dedos, mãos e cotovelos
+                  em pontos estratégicos do corpo. Inspirado nos princípios da
+                  medicina tradicional chinesa.
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 60 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 170,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="card h-100 card-hover">
+              <img class="img-fluid" src="assets/card-servicos-9.png" alt="Foto de uma pessoa recebendo massagem nas costas." />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title fs-4">Massagem Domiciliar</h3>
+                <p class="card-text fs-6 fw-medium">
+                  Imagine transformar o seu lar em um verdadeiro SPA, onde cada
+                  detalhe é pensado para o seu relaxamento e bem-estar. Com o meu
+                  atendimento domiciliar, você não precisa enfrentar trânsito ou
+                  sair da sua zona de conforto.
+                </p>
+                <p class="card-text fs-6 fw-medium">
+                  Carregar tensões, sentir dores nas costas, ombros ou pernas...
+                  isso já não precisa fazer parte do seu dia a dia. A massagem
+                  terapêutica é a solução ideal para quem busca alívio imediato e
+                  mais qualidade de vida!
+                </p>
+                <div class="mt-auto">
+                  <p class="card-text fs-6 fw-medium">
+                    <i class="bi bi-hourglass"></i> Duração: 80 minutos
+                  </p>
+                  <p class="card-text fs-6 fw-medium">R$ 300,00</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Card 2 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-2.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Massagem Terapêutica</h3>
-              <p class="card-text fs-6 fw-medium">
-                🌿 Massagem Terapêutica: Alívio para o corpo, paz para a
-                mente!🌿
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Carregar tensões, sentir dores nas costas, ombros ou pernas...
-                isso já não precisa fazer parte do seu dia a dia. A massagem
-                terapêutica é a solução ideal para quem busca alívio imediato e
-                mais qualidade de vida!
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 120 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 260,00</p>
-              </div>
-            </div>
-          </div>
+        <div class="d-flex justify-content-center mt-4">
+          <a
+            class="botao botao-secundario w-25 text-decoration-none rounded-1 px-2 p-2 fs-5 text-center"
+            href="contato.html"
+            >Agende sua sessão</a
+          >
         </div>
+      </section>
 
-        <!-- Card 3 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-3.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Massagem Facial</h3>
-              <p class="card-text fs-6 fw-medium">
-                ✨️Imagine aliviar as tensões acumuladas no rosto, pescoço e
-                cabeça enquanto renova sua pele e desperta uma sensação única de
-                bem-estar... ✨ Essa é a experiência da Massagem Facial Crânio!
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Com movimentos suaves e precisos, ela reduz o estresse, melhora
-                a circulação, suaviza linhas de expressão e ainda promove um
-                relaxamento profundo que você merece sentir.
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 50 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 130,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-4.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Auriculoterapia</h3>
-              <p class="card-text fs-6 fw-medium">
-                ✨ Transforme sua saúde com a Auriculoterapia! ✨
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Sabia que a solução para diversas dores e desconfortos pode
-                estar nas suas orelhas? 🌿 A Auriculoterapia é uma técnica
-                milenar que estimula pontos específicos na orelha para
-                equilibrar corpo e mente.
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 30 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 80,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-5.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Drenagem Linfática</h3>
-              <p class="card-text fs-6 fw-medium">
-                💆‍♀️ Drenagem Linfática: Saúde e Bem-Estar em Harmonia! 💧
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Você sabia que a drenagem linfática vai muito além da estética?
-                Essa técnica ajuda a estimular o sistema linfático, responsável
-                por eliminar toxinas, reduzir inchaços e melhorar a circulação
-                do corpo. Ideal para quem busca qualidade de vida, a drenagem
-                também é indicada para gestantes (com orientação médica),
-                pós-operatórios e até mesmo para aliviar o cansaço do dia a dia.
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 70 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 180,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-6.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Liberação Miofascial</h3>
-              <p class="card-text fs-6 fw-medium">
-                Você sente dores musculares, rigidez ou aquele incômodo que
-                parece nunca passar?
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                🌿 A liberação miofascial pode ser a solução que seu corpo
-                precisa! Essa técnica incrível atua diretamente na fáscia – a
-                membrana que envolve os músculos – liberando tensões e
-                devolvendo a mobilidade que você merece.
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 80 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 200,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 7 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-7.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Reflexologia Podal</h3>
-              <p class="card-text fs-6 fw-medium">
-                👣 Escalda-pés + Reflexologia Podal: Um cuidado que começa pelos
-                seus pés e transforma todo o corpo! 💚✨
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Imagine mergulhar seus pés em uma água morna com ervas e aromas
-                relaxantes, seguido por toques terapêuticos que aliviam tensões
-                e equilibram sua energia. 🌿
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 50 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 130,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 8 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-8.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Shiatsu</h3>
-              <p class="card-text fs-6 fw-medium">
-                O shiatsu é uma técnica de massagem terapêutica de origem
-                japonesa que trabalha com a pressão dos dedos, mãos e cotovelos
-                em pontos estratégicos do corpo. Inspirado nos princípios da
-                medicina tradicional chinesa.
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 60 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 170,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 9 -->
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card h-100 card-hover">
-            <img class="img-fluid" src="assets/card-servicos-9.png" alt="" />
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title fs-4">Massagem Domiciliar</h3>
-              <p class="card-text fs-6 fw-medium">
-                Imagine transformar o seu lar em um verdadeiro SPA, onde cada
-                detalhe é pensado para o seu relaxamento e bem-estar. Com o meu
-                atendimento domiciliar, você não precisa enfrentar trânsito ou
-                sair da sua zona de conforto.
-              </p>
-              <p class="card-text fs-6 fw-medium">
-                Carregar tensões, sentir dores nas costas, ombros ou pernas...
-                isso já não precisa fazer parte do seu dia a dia. A massagem
-                terapêutica é a solução ideal para quem busca alívio imediato e
-                mais qualidade de vida!
-              </p>
-
-              <div class="mt-auto">
-                <p class="card-text fs-6 fw-medium">
-                  <i class="bi bi-hourglass"></i> Duração: 80 minutos
-                </p>
-                <p class="card-text fs-6 fw-medium">R$ 300,00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center mt-4">
-        <a
-          class="botao botao-secundario w-25 text-decoration-none rounded-1 px-2 p-2 fs-5 text-center"
-          href="contato.html"
-          >Agende sua sessão</a
-        >
-      </div>
-    </section>
+      <a
+        href="https://wa.me/5511958507476"
+        target="_blank"
+        class="whatsapp-float"
+      >
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </main>
 
     <footer class="mt-5 pt-5" style="background-color: #2e5e4e">
       <div class="container pb-4">
@@ -337,15 +320,15 @@
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Sio.massoterapia</h5>
             <p>Fale Conosco</p>
-            <p><i class="bi bi-whatsapp text-light me-2"></i>(11) 95850-7476</p>
+            <p><a href="https://wa.me/5511958507476" target="_blank"><i class="bi bi-whatsapp text-light me-2"></a></i> (11) 95850-7476</p>
             <p>
-              <i class="bi bi-instagram text-light me-2"></i>@sio.massoterapia
+            <p><a href="https://www.instagram.com/sio.massoterapeuta/" target="_blank"><i class="bi bi-instagram text-light me-2"></a></i>@sio.massoterapia
             </p>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Institucional</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-3">
               <li>
                 <a href="index.html" class="text-decoration-none text-white"
                   >Início</a
@@ -371,7 +354,7 @@
 
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Atendimento</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-3">
               <li>Domingo: 08:00 às 16:00</li>
               <li>Segunda-feira: 08:00 às 20:00</li>
               <li>Terça-feira: 08:00 às 20:00</li>
@@ -384,7 +367,7 @@
 
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Equipe de Desenvolvimento</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-3">
               <li>
                 <a
                   href="https://www.linkedin.com/in/alexi-dias-38a77b32b"

@@ -19,66 +19,70 @@
   </head>
   <body class="bg-light d-flex flex-column min-vh-100">
     <main class="flex-fill py-5">
-      <nav class="navbar navbar-dark shadow-sm navbar-expand-md fixed-top">
-        <div class="container-fluid px-5">
-          <a class="navbar-brand" href="index.html">SIO Massoterapia</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h1 class="offcanvas-title" id="offcanvasNavbarLabel">
-                SIO Massoterapia
-              </h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html"
-                    >Início</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="servicos.html">Serviços</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link botao rounded px-2" href="contato.html"
-                    >Agendar Sessão</a
-                  >
-                </li>
-              </ul>
+      <header>
+        <nav class="navbar navbar-dark shadow-sm navbar-expand-md fixed-top">
+          <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">SIO Massoterapia</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  SIO Massoterapia
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html"
+                      >Início</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link botao rounded px-2" href="contato.html"
+                      >Agendar Sessão</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
 
       <section class="py-5 mt-5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-12 col-lg-5 mx-lg-3">
               <h2 class="fw-bold text-success">Sobre</h2>
-              <h5 class="mb-3">Sione Maciel</h5>
+              <h3 class="mb-3">Sione Maciel</h3>
               <p>
                 Meu nome é Sione Maciel e sou massoterapeuta dedicada ao cuidado
                 do seu corpo e bem-estar.
@@ -175,9 +179,17 @@
           Agendamento Online
         </a>
       </div>
+
+      <a
+        href="https://wa.me/5511958507476"
+        target="_blank"
+        class="whatsapp-float"
+      >
+        <i class="bi bi-whatsapp"></i>
+      </a>
     </main>
 
-    <footer class="mt-5 pt-5" style="background-color: #2e5e4e">
+     <footer class="mt-5 pt-5" style="background-color: #2e5e4e">
       <div class="container pb-4">
         <div
           class="row text-center text-lg-start justify-content-center gy-4 text-white"
@@ -185,15 +197,20 @@
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Sio.massoterapia</h5>
             <p>Fale Conosco</p>
-            <p><i class="bi bi-whatsapp text-light me-2"></i>(11) 95850-7476</p>
+            <p><a href="https://wa.me/5511958507476" target="_blank"><i class="bi bi-whatsapp text-light me-2"></a></i> (11) 95850-7476</p>
             <p>
-              <i class="bi bi-instagram text-light me-2"></i>@sio.massoterapia
+            <p><a href="https://www.instagram.com/sio.massoterapeuta/" target="_blank"><i class="bi bi-instagram text-light me-2"></a></i>@sio.massoterapia
             </p>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Institucional</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-3">
+              <li>
+                <a href="index.html" class="text-decoration-none text-white"
+                  >Início</a
+                >
+              </li>
               <li>
                 <a href="sobre.html" class="text-decoration-none text-white"
                   >Sobre</a
@@ -202,11 +219,6 @@
               <li>
                 <a href="servicos.html" class="text-decoration-none text-white"
                   >Serviços</a
-                >
-              </li>
-              <li>
-                <a href="index.html" class="text-decoration-none text-white"
-                  >Massoterapia</a
                 >
               </li>
               <li>
@@ -219,7 +231,7 @@
 
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Atendimento</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-3">
               <li>Domingo: 08:00 às 16:00</li>
               <li>Segunda-feira: 08:00 às 20:00</li>
               <li>Terça-feira: 08:00 às 20:00</li>
@@ -232,7 +244,7 @@
 
           <div class="col-12 col-md-6 col-lg-3">
             <h5>Equipe de Desenvolvimento</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-3">
               <li>
                 <a
                   href="https://www.linkedin.com/in/alexi-dias-38a77b32b"
@@ -266,7 +278,7 @@
                   target="_blank"
                   rel="noopener"
                   class="text-decoration-none text-white"
-                  >Riqulme Viana</a
+                  >Riquelme Viana</a
                 >
               </li>
               <li>
@@ -281,10 +293,6 @@
             </ul>
           </div>
         </div>
-      </div>
-
-      <div class="text-center py-3" style="background-color: #3d7a67">
-        © 2025 Sio.massoterapia – Todos os direitos reservados.
       </div>
 
       <div class="text-center py-3" style="background-color: #3d7a67">

@@ -153,6 +153,11 @@
 .card-hover:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  color: var(--cor-verde);
+}
+
+.card-pagina-contato:hover {
+  color: var(--cor-primaria);
 }
 
 .container-cards {
@@ -238,14 +243,13 @@ i.bi:hover {
   color: var(--cor-primaria);
 }
 
-.footer__list {
-  list-style: none;
+footer a {
+  color: var(--cor-primaria) !important; /* força a cor atual */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-@media (max-width: 768px) {
-  .mt-2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+footer a:hover {
+  color: #b0e3d3 !important; /* verde suave de hover */
+  transform: translateY(-2px);
 }
